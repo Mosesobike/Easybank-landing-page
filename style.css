@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
 *{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background:  hsl(0, 0%, 98%);
+    background: #fafafa;
     overflow-x: hidden;
+    font-family: 'Public Sans', sans-serif;
 }
 nav{
     display: flex;
@@ -24,6 +26,14 @@ li{
 }
 a{
     text-decoration: none;
+    font-weight:400;
+    font-size: 15px;
+}
+a:hover{
+    opacity: 0.5;
+    padding-top: 1.5rem;
+    background: #fafafa;
+    transition: 0.8s ease-in;
 }
 .links{
     display: flex;
@@ -39,14 +49,39 @@ a{
     position: relative;
     z-index:1;
 }
+.intro-heading{
+    font-size: 42px;
+    color:hsl(233, 26%, 24%);
+    font-weight: 300;
+    font-family: 'Public Sans', sans-serif !important;
+}
+.intro-sub-heading{
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);
+    font-weight:500;
+}
 .intro-left{
   margin-left: 9%;
   margin-top: 15%;
   width:100%;
+  padding-bottom: 2%;
 }
 .mockups{
     position: relative;
     margin-left:17%;
     margin-top:-100px;
     z-index: 1;
+}
+.invite-btn{
+    background: linear-gradient(90deg, #31d35c, #2bb7da);
+    outline: none;
+    border: none;
+    width: 150px;
+    padding:1% 2%;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
 }
