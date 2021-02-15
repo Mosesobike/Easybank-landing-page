@@ -13,7 +13,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: auto;
     padding-top:2%;
     padding-bottom: 2%;
     background:white ;
@@ -35,11 +34,24 @@ a:hover{
     background: #fafafa;
     transition: 0.8s ease-in;
 }
+button:hover{
+    opacity: 0.8;
+}
 .links{
     display: flex;
 }
 .nav-links{
     margin-left: 25px;
+}
+.invite-btn{
+    background: linear-gradient(90deg, #31d35c, #2bb7da);
+    outline: none;
+    border: none;
+    width: 150px;
+    padding:1% 2%;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
 }
 .intro-container{
     display: flex;
@@ -48,6 +60,7 @@ a:hover{
     background-position:543px -275px;
     position: relative;
     z-index:1;
+    height: auto;
 }
 .intro-heading{
     font-size: 42px;
@@ -66,22 +79,20 @@ a:hover{
   width:100%;
   padding-bottom: 2%;
 }
+.intro-invite-btn{
+    background: linear-gradient(90deg, #31d35c, #2bb7da);
+    outline: none;
+    border: none;
+    width: 150px;
+    padding:3% 2%;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
 .mockups{
     position: relative;
     margin-left:17%;
     margin-top:-100px;
     z-index: 1;
 }
-.invite-btn{
-    background: linear-gradient(90deg, #31d35c, #2bb7da);
-    outline: none;
-    border: none;
-    width: 150px;
-    padding:1% 2%;
-    border-radius: 30px;
-    color: white;
-    cursor: pointer;
-}
-button:hover{
-    opacity: 0.8;
-}
+
