@@ -27,12 +27,11 @@ a{
     text-decoration: none;
     font-weight:400;
     font-size: 15px;
+    color: hsl(233, 8%, 62%);
 }
 a:hover{
     opacity: 0.5;
-    padding-top: 1.5rem;
-    background: #fafafa;
-    transition: 0.8s ease-in;
+    transition: 0.5s ease-out;
 }
 button:hover{
     opacity: 0.8;
@@ -166,4 +165,33 @@ button:hover{
     color: hsl(233, 8%, 62%);
     font-weight: 400;
     padding: 3% 10%
+}
+footer{
+    background: hsl(233, 26%, 24%);
+    padding: 5% 5%;
+    color: #fff ;
+}
+.footer-container{
+    display: flex;
+}
+.icon-list{
+    display: flex;
+}
+.footer-nav-links li{
+    margin-top:4%;
+}
+.footer-btn{
+    background: linear-gradient(90deg, #31d35c, #2bb7da);
+    outline: none;
+    border: none;
+    width: 150px;
+    padding:9% 2%;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+}
+.attribution{
+    text-align: center;
+    background: hsl(233, 26%, 24%);
+    padding-bottom:1%;
 }
