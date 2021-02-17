@@ -104,11 +104,8 @@ button:hover{
     padding-right:3%;
     background:  hsl(220, 16%, 96%);
 }
-.features-section h1{
-    font-size:34px !important;
-}
-.features-section p{
-    font-size:15px !important;
+.features-sub-heading{
+    font-size:15px;
 }
 .features-container{
     display:flex;
@@ -120,7 +117,7 @@ button:hover{
   color: hsl(233, 8%, 62%) ;
   font-size: 15px;
 }
-.features h2{
+.features-heading{
     color:hsl(233, 26%, 24%);
     font-size: 20px;
 }
@@ -194,4 +191,69 @@ footer{
     text-align: center;
     background: hsl(233, 26%, 24%);
     padding-bottom:1%;
+}
+@media screen and (max-width:1024px){
+.intro-container{
+    background-position:390px -285px; ;
+}
+.intro-right{
+    margin-right:18%;
+}
+.mockups{
+    max-width:170%;
+}
+.intro-sub-heading{
+    font-size:12px;
+}
+.features-sub-heading{
+    font-size:10px;
+}
+.article-container{
+    margin-right:17%;
+}
+.article-img{
+    max-width:200px;
+}
+}
+@media screen and (max-width:768px){
+    .intro-container{
+        background-position:260px -260px; ;
+    }
+    .intro-right{
+        margin-right:23%;
+    }
+    .mockups{
+        max-width:200%;
+    }
+    .intro-heading{
+        font-size:30px;
+    }
+    .intro-left p{
+        font-size:11px;
+    }
+    .features-heading{
+        font-size:14px;
+    }
+    .features-sub-heading{
+        font-size:12px;
+    }
+    .article-container{
+        margin-right:17%;
+    }
+    .article-img{
+            max-width:150px;
+    }
+    .article h3{
+        font-size: 12px;
+    }
+    .article p{
+        font-size: 9px;
+    }
+}
+@media screen and (max-width:600px){
+    .intro-container{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
