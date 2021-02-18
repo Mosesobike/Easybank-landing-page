@@ -174,7 +174,7 @@ footer{
 .icon-list{
     display: flex;
 }
-.footer-nav-links li{
+.footer-nav-links{
     margin-top:4%;
 }
 .footer-btn{
@@ -186,6 +186,9 @@ footer{
     border-radius: 30px;
     color: white;
     cursor: pointer;
+}
+.trade-mark{
+    color: hsl(233, 8%, 62%);
 }
 .attribution{
     text-align: center;
@@ -251,9 +254,74 @@ footer{
     }
 }
 @media screen and (max-width:600px){
+    .logo{
+        margin-left: 2%;
+        width:27%;
+    }
+    .nav-links{
+        display: none;
+    }
+    .invite-btn{
+        display: none;
+    }
     .intro-container{
         display: flex;
         flex-direction: column;
+        background: url('/images/bg-intro-mobile.svg');
+        background-repeat: no-repeat;
+        background-size:cover;
     }
-
+    .mockups{
+        width:50%;
+        position: absolute;
+        top:30%;
+        left:10%;
+    }
+    .features-container{
+        display: flex;
+        flex-direction: column;
+        /* margin: auto 0; */
+    }
+    .features{
+        text-align: center;
+        width: 80%;
+        margin: auto 0;
+    }
+    .article-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto 0;
+    }
+    .article{
+        width:100%;
+        text-align: center;
+        margin-bottom:5%;
+    }
+    .article-img{
+        width:500px;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto 0;
+        text-align: center;
+    }
+    .footer-logo{
+        align-items: center;
+         margin-bottom: 3%;
+    }
+    .logo-img{
+        width:85%;
+    }
+    .icon{
+        width:80%;
+    }
+    .footer-nav-links{
+        font-size:9px;
+        margin-bottom: 10%;
+        margin-top:2%;
+    }
+    .footer-nav-two{
+        margin-bottom: 5px;
+    }
 }
