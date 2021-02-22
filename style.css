@@ -58,12 +58,16 @@ button:hover{
 }
 .modal-container{
     position:absolute;
-    display:flex;
+    display: none;
     flex-direction: column;
-    background: rgba(128, 128, 128, 0.418);
-    height:100%;
+    background: rgba(128, 128, 128, 0.287);
+    height:10%;
     width:100%;
     z-index:2;
+    transition: all 0.3s linear;;
+}
+.show-modal{
+    display: block;
 }
 .modal{
     background:white;
