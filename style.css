@@ -315,9 +315,6 @@ footer{
     .hamburger{
         display: block;
     }
-    .modal-btn{
-
-    }
     .invite-btn{
         display: none;
     }
@@ -372,7 +369,8 @@ footer{
     .features{
         text-align: center;
         width: 100%;
-        margin:2% 0;
+        margin:3% -4%;
+        padding: 0;
     }
     .features-heading{
         font-size: 20px;
