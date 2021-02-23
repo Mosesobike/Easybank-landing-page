@@ -372,6 +372,15 @@ footer{
         margin:3% -4%;
         padding: 0;
     }
+    .easybank-heading{
+        text-align: center;
+        font-size:30px;
+        width:60%;
+        width:100%;
+    }
+    .easybank-sub-heading{
+        margin-left:-3.5%;
+    }
     .features-heading{
         font-size: 20px;
     }
